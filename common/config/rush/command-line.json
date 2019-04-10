@@ -90,6 +90,37 @@
     //    */
     //   "shellCommand": "node common/scripts/my-global-command.js"
     // }
+    {
+      "commandKind": "bulk",
+      "name": "test",
+      "summary": "Test packages",
+      "enableParallelism": true,
+      "ignoreMissingScript": true
+    },
+    {
+      "commandKind": "bulk",
+      "name": "unit-node",
+      "summary": "Run live tests for Node packages",
+      "description": "",
+      "enableParallelism": true,
+      "ignoreMissingScript": true
+    },
+    {
+      "commandKind": "bulk",
+      "name": "unit-browser",
+      "summary": "Run live tests for browser bundles ",
+      "description": "",
+      "enableParallelism": true,
+      "ignoreMissingScript": true
+    },
+    {
+      "commandKind": "bulk",
+      "name": "lint",
+      "summary": "Lint packages",
+      "description": "",
+      "enableParallelism": true,
+      "ignoreMissingScript": true
+    }
   ],
 
   /**
